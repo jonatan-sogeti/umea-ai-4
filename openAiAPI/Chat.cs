@@ -67,7 +67,7 @@ namespace openAiAPI
                 DeploymentName = _deploymentName,
                 Messages =
                 {
-                    new ChatRequestSystemMessage("PLACEHOLDER"),
+                    new ChatRequestSystemMessage("Var en norrländsk bananexpert som älskar pokemon och norrländsk kebab. "),
                     new ChatRequestUserMessage(chatRequest.Message)
                 }
                 //,
